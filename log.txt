@@ -449,3 +449,112 @@ client_session: <aiohttp.client.ClientSession object at 0x7ff1ea3a6c60>
 [31-Jul-26 16:31:54 - INFO] - SHUKLAMUSIC - ╔═════ஜ۩۞۩ஜ════╗
   ☠︎︎𝗠𝗔𝗗𝗘 𝗕𝗬 𝗠𝗥 𝗦𝗛𝗜𝗩𝗔𝗡𝗦𝗛
 ╚═════ஜ۩۞۩ஜ════╝
+[31-Jul-26 16:33:15 - ERROR] - pyrogram.dispatcher - Unexpected exception raised in MessageHandler:
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.12/site-packages/pyrogram/dispatcher.py", line 444, in handler_worker
+    await handler.callback(self.client, *args)
+  File "/home/runner/workspace/SHUKLAMUSIC/utils/decorators/language.py", line 37, in wrapper
+    return await mystic(_, message, language)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/SHUKLAMUSIC/plugins/tools/ping.py", line 32, in ping_com
+    response = await message.reply_video(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.12/site-packages/pyrogram/types/messages_and_media/message.py", line 6546, in reply_video
+    return await self._client.send_video(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.12/site-packages/pyrogram/methods/messages/send_video.py", line 417, in send_video
+    r = await self.invoke(
+        ^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.12/site-packages/pyrogram/methods/advanced/invoke.py", line 107, in invoke
+    r = await session.invoke(
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.12/site-packages/pyrogram/session/session.py", line 551, in invoke
+    return await self.send(query, timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.12/site-packages/pyrogram/session/session.py", line 514, in send
+    RPCError.raise_it(result, type(data))
+  File "/home/runner/workspace/.pythonlibs/lib/python3.12/site-packages/pyrogram/errors/rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.bad_request_400.WebpageMediaEmpty: Telegram says: [400 WEBPAGE_MEDIA_EMPTY] - The URL doesn't contain any valid media. (caused by "messages.SendMedia")
+[31-Jul-26 16:33:22 - ERROR] - pyrogram.dispatcher - Unexpected exception raised in MessageHandler:
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.12/site-packages/pyrogram/dispatcher.py", line 444, in handler_worker
+    await handler.callback(self.client, *args)
+  File "/home/runner/workspace/SHUKLAMUSIC/utils/decorators/language.py", line 37, in wrapper
+    return await mystic(_, message, language)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/SHUKLAMUSIC/plugins/tools/ping.py", line 32, in ping_com
+    response = await message.reply_video(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.12/site-packages/pyrogram/types/messages_and_media/message.py", line 6546, in reply_video
+    return await self._client.send_video(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.12/site-packages/pyrogram/methods/messages/send_video.py", line 417, in send_video
+    r = await self.invoke(
+        ^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.12/site-packages/pyrogram/methods/advanced/invoke.py", line 107, in invoke
+    r = await session.invoke(
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.12/site-packages/pyrogram/session/session.py", line 551, in invoke
+    return await self.send(query, timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.12/site-packages/pyrogram/session/session.py", line 514, in send
+    RPCError.raise_it(result, type(data))
+  File "/home/runner/workspace/.pythonlibs/lib/python3.12/site-packages/pyrogram/errors/rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.bad_request_400.WebpageMediaEmpty: Telegram says: [400 WEBPAGE_MEDIA_EMPTY] - The URL doesn't contain any valid media. (caused by "messages.SendMedia")
+[31-Jul-26 16:33:29 - ERROR] - pyrogram.dispatcher - Unexpected exception raised in MessageHandler:
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.12/site-packages/pyrogram/dispatcher.py", line 444, in handler_worker
+    await handler.callback(self.client, *args)
+  File "/home/runner/workspace/SHUKLAMUSIC/utils/decorators/language.py", line 37, in wrapper
+    return await mystic(_, message, language)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/SHUKLAMUSIC/plugins/tools/ping.py", line 32, in ping_com
+    response = await message.reply_video(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.12/site-packages/pyrogram/types/messages_and_media/message.py", line 6546, in reply_video
+    return await self._client.send_video(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.12/site-packages/pyrogram/methods/messages/send_video.py", line 417, in send_video
+    r = await self.invoke(
+        ^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.12/site-packages/pyrogram/methods/advanced/invoke.py", line 107, in invoke
+    r = await session.invoke(
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.12/site-packages/pyrogram/session/session.py", line 551, in invoke
+    return await self.send(query, timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.12/site-packages/pyrogram/session/session.py", line 514, in send
+    RPCError.raise_it(result, type(data))
+  File "/home/runner/workspace/.pythonlibs/lib/python3.12/site-packages/pyrogram/errors/rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.bad_request_400.WebpageMediaEmpty: Telegram says: [400 WEBPAGE_MEDIA_EMPTY] - The URL doesn't contain any valid media. (caused by "messages.SendMedia")
+[31-Jul-26 16:36:20 - INFO] - SHUKLAMUSIC.core.bot - Stopping Bot...
+[31-Jul-26 16:36:20 - INFO] - SHUKLAMUSIC.core.userbot - Stopping Assistants...
+[31-Jul-26 16:36:20 - INFO] - SHUKLAMUSIC - 𝗦𝗧𝗢𝗣 𝗦𝗧𝗥𝗔𝗡𝗚𝗘𝗥 𝗠𝗨𝗦𝗜𝗖🎻 𝗕𝗢𝗧..
+[31-Jul-26 16:36:20 - ERROR] - asyncio - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7fe02e7df1a0>
+[31-Jul-26 16:36:20 - ERROR] - asyncio - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7fe00df56ae0>
+[31-Jul-26 16:36:25 - INFO] - SHUKLAMUSIC.core.mongo - Connecting to your Mongo Database...
+[31-Jul-26 16:36:25 - INFO] - SHUKLAMUSIC.core.mongo - Connected to your Mongo Database.
+[31-Jul-26 16:36:25 - INFO] - SHUKLAMUSIC.core.dir - Directories Updated.
+[31-Jul-26 16:36:25 - INFO] - SHUKLAMUSIC.core.git - Git Client Found [VPS DEPLOYER]
+[31-Jul-26 16:36:25 - INFO] - SHUKLAMUSIC.misc - 𝗗𝗔𝗧𝗔𝗕𝗔𝗦𝗘 𝗟𝗢𝗔𝗗 𝗕𝗔𝗕𝗬🍫........
+[31-Jul-26 16:36:25 - INFO] - SHUKLAMUSIC.core.bot - Starting Bot...
+[31-Jul-26 16:36:27 - INFO] - SHUKLAMUSIC.misc - 𝗦𝗨𝗗𝗢 𝗨𝗦𝗘𝗥 𝗗𝗢𝗡𝗘✨🎋.
+[31-Jul-26 16:36:32 - INFO] - SHUKLAMUSIC.core.bot - Music Bot Started Successfully as 𝐀ʟɪsᴀ x ᴍᴜsɪᴄ
+[31-Jul-26 16:36:33 - INFO] - apscheduler.scheduler - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+[31-Jul-26 16:36:33 - INFO] - apscheduler.scheduler - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+[31-Jul-26 16:36:33 - INFO] - apscheduler.scheduler - Added job "start_nightmode" to job store "default"
+[31-Jul-26 16:36:33 - INFO] - apscheduler.scheduler - Added job "close_nightmode" to job store "default"
+[31-Jul-26 16:36:33 - INFO] - apscheduler.scheduler - Scheduler started
+[31-Jul-26 16:36:33 - INFO] - SHUKLAMUSIC.plugins - 𝐀𝐥𝐥 𝐅𝐞𝐚𝐭𝐮𝐫𝐞𝐬 𝐋𝐨𝐚𝐝𝐞𝐝 𝐁𝐚𝐛𝐲🥳...
+[31-Jul-26 16:36:33 - INFO] - SHUKLAMUSIC.core.userbot - Starting Assistants...
+[31-Jul-26 16:36:35 - INFO] - SHUKLAMUSIC.core.userbot - Assistant Started as <a href=tg://user?id=8979454281>𝁘𝆆ໍ𝚮⃬𖾔꘍𖾖ꤪꤦꤨ𖾓ᥣ𖾝𖾗𖾗ᡣ𐭩〭𝆆𝁛</a>
+[31-Jul-26 16:36:35 - INFO] - SHUKLAMUSIC.core.call - Starting PyTgCalls Client...
+
+[31-Jul-26 16:37:06 - INFO] - SHUKLAMUSIC - ╔═════ஜ۩۞۩ஜ════╗
+  ☠︎︎𝗠𝗔𝗗𝗘 𝗕𝗬 𝗠𝗥 𝗦𝗛𝗜𝗩𝗔𝗡𝗦𝗛
+╚═════ஜ۩۞۩ஜ════╝

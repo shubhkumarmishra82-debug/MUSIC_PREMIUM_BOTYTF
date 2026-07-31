@@ -30,7 +30,7 @@ import random
 async def ping_com(client, message: Message, _):
     start = datetime.now()
     response = await message.reply_video(
-        "https://files.catbox.moe/hcb2og.mp4",
+        "SHUKLAMUSIC/assets/ping_video.mp4",
         caption=_["ping_1"].format(app.mention),
     )
     pytgping = await SHUKLA.ping()

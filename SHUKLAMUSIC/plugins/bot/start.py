@@ -167,11 +167,11 @@ async def start_pm(client, message: Message, _):
     await asyncio.sleep(0.1)
     await loading_1.edit_text("<b>ᴅɪηɢ ᴅᴏηɢ...❤️‍🔥</b>")
     await asyncio.sleep(0.1)
-    await loading_1.edit_text("<b>ᴍɪᴋᴜ</b>")
+    await loading_1.edit_text("<b>ᴀʟɪsᴀ</b>")
     await asyncio.sleep(0.1)
-    await loading_1.edit_text("<b>ᴍɪᴋᴜ ꭙ</b>")
+    await loading_1.edit_text("<b>ᴀʟɪsᴀ ×</b>")
     await asyncio.sleep(0.1)
-    await loading_1.edit_text("<b>ᴍɪᴋᴜ ꭙ ϻᴜsɪᴄ ♪</b>")
+    await loading_1.edit_text("<b>ᴀʟɪsᴀ × ᴍᴜsɪᴄ ♪</b>")
     await asyncio.sleep(0.1)
     await loading_1.edit_text("<b>sᴛᴧʀᴛed!🥀</b>")
     await asyncio.sleep(0.1)
@@ -182,9 +182,8 @@ async def start_pm(client, message: Message, _):
         name = message.text.split(None, 1)[1]
         if name[0:4] == "help":
             keyboard = help_pannel(_)
-            await message.reply_photo(
-                random.choice(YUMI_PICS),
-                has_spoiler=True,
+            await message.reply_video(
+                "https://files.catbox.moe/0lz6ue.mp4",
                 caption=_["help_1"].format(config.SUPPORT_CHAT),
                 reply_markup=keyboard,
             )
@@ -267,9 +266,8 @@ async def start_pm(client, message: Message, _):
             await client.get_me()
         )
 
-        await message.reply_photo(
-            random.choice(YUMI_PICS),
-            has_spoiler=True,
+        await message.reply_video(
+            "https://files.catbox.moe/0lz6ue.mp4",
             caption=final_caption,
             reply_markup=InlineKeyboardMarkup(out),
         )
@@ -307,8 +305,8 @@ async def start_gp(client, message: Message, _):
         message.chat
     )
 
-    await message.reply_photo(
-        random.choice(YUMI_PICS),
+    await message.reply_video(
+        "https://files.catbox.moe/0lz6ue.mp4",
         caption=final_caption,
         reply_markup=InlineKeyboardMarkup(out),
     )
@@ -361,9 +359,8 @@ async def welcome(client, message: Message):
                     message.chat
                 )
 
-                await message.reply_photo(
-                    random.choice(YUMI_PICS),
-                    has_spoiler=True,
+                await message.reply_video(
+                    "https://files.catbox.moe/0lz6ue.mp4",
                     caption=final_caption,
                     reply_markup=InlineKeyboardMarkup(out),
                 )

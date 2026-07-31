@@ -29,14 +29,14 @@ import random
 @language
 async def ping_com(client, message: Message, _):
     start = datetime.now()
-    response = await message.reply_photo(
-        random.choice(SHASHANK_IMG),
+    response = await message.reply_video(
+        "https://files.catbox.moe/hcb2og.mp4",
         caption=_["ping_1"].format(app.mention),
     )
     pytgping = await SHUKLA.ping()
     UP, CPU, RAM, DISK = await bot_sys_stats()
     resp = (datetime.now() - start).microseconds / 1000
-    await response.edit_text(
+    await response.edit_caption(
         _["ping_2"].format(resp, app.mention, UP, RAM, CPU, DISK, pytgping),
         reply_markup=supp_markup(_),
     )

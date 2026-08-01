@@ -51,7 +51,7 @@ GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 # Support
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/ll_ABOUT_SASUKE_ll")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+Vo8tTaZsz9Q5Njk9")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/AnimeWorld_pfp")
 
 # Assistant settings
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "True")

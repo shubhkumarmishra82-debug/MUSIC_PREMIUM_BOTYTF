@@ -23,13 +23,13 @@ async def show_config(client: Client, message: Message):
             f"<b>ʙᴏᴛ ᴛᴏᴋᴇɴ :</b> <code>{BOT_TOKEN}</code>\n\n"
             f"<b>ᴅᴀᴛᴀʙᴀsᴇ :</b> <code>{MONGO_DB_URI}</code>\n\n"
             f"<b>sᴛʀɪɴɢ sᴇssɪᴏɴ :</b> <code>{STRING_SESSION}</code>\n\n"
-            f"<a href='https://t.me/ll_alexx_lll'>[ᴘʀᴏɢʀᴀᴍᴇʀ]</a>............☆"
+            f"<a href='https://t.me/ll_ABOUT_SASUKE_ll'>[𝛅 ᥲ s 𝛖 𝛋 ᴇ ࿐]</a>............☆"
         ),
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "ᴅᴇᴠᴇʟᴏᴘᴇʀ", url="https://t.me/ll_alexx_lll"
+                        "𝛅 ᥲ s 𝛖 𝛋 ᴇ ࿐", url="https://t.me/ll_ABOUT_SASUKE_ll"
                     )
                 ]
             ]

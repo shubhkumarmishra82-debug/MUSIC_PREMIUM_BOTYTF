@@ -26,7 +26,7 @@ API_HASH = getenv("API_HASH")
 BOT_TOKEN = getenv("BOT_TOKEN")
 
 # Bot and owner info
-OWNER_USERNAME = getenv("OWNER_USERNAME", "ll_alexx_lll")
+OWNER_USERNAME = getenv("OWNER_USERNAME", "sasuke_qt")
 BOT_USERNAME = getenv("BOT_USERNAME", "MikasaMusicRobot")
 BOT_NAME = getenv("BOT_NAME", "Alisa")
 ASSUSERNAME = getenv("ASSUSERNAME", "Aiused")
@@ -50,8 +50,8 @@ UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 # Support
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/TuneBots")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/ziddi_thoughts")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/ll_ABOUT_SASUKE_ll")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+Vo8tTaZsz9Q5Njk9")
 
 # Assistant settings
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "True")

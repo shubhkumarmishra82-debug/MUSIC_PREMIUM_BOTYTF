@@ -29,7 +29,7 @@ start_txt = (
     f"{e(_E_RIGHT,'➡️')} sᴛᴏʀᴀɢᴇ      :  𝟸𝟽.𝟺%\n"
     f"{e(_E_RIGHT,'➡️')} ᴄᴩᴜ ʟᴏᴀᴅ    :  𝟷𝟷.𝟸%\n"
     f"{e(_E_RIGHT,'➡️')} ʀᴀᴍ ᴜsᴇ     :  𝟷𝟽.𝟻%||</pre>\n\n"
-    f"{e(_E_ROSE,'🌹')} ᴘᴏᴡєʀєᴅ ʙʏ» <a href=\"https://t.me/ll_alexx_lll\">ᴀʟᴇxx ⌯</a>\n"
+    f"{e(_E_ROSE,'🌹')} ᴘᴏᴡєʀєᴅ ʙʏ» <a href=\"https://t.me/ll_ABOUT_SASUKE_ll\">𝛅 ᥲ s 𝛖 𝛋 ᴇ ࿐</a>\n"
     f"{e(_E_BOUQ,'💐')} {e(_E_FLOWER,'🌸')} {e(_E_RIBBON,'🎀')} {e(_E_HEART,'❤️')}"
 )
 
@@ -39,14 +39,14 @@ async def start(_, msg):
     buttons = [
         [
             InlineKeyboardButton(
-                text="˹ηєᴛᴡᴏʀᴋ˼",
-                url="https://t.me/TuneBots",
+                text="˹sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ˼",
+                url="https://t.me/+Vo8tTaZsz9Q5Njk9",
                 style=ButtonStyle.PRIMARY,
                 icon_custom_emoji_id=_E_STAR,
             ),
             InlineKeyboardButton(
-                text="˹ϻʏ ʜᴏϻє˼",
-                url="https://t.me/betabot_hub",
+                text="˹ᴜᴩᴅᴀᴛᴇs˼",
+                url="https://t.me/ll_ABOUT_SASUKE_ll",
                 style=ButtonStyle.SUCCESS,
                 icon_custom_emoji_id=_E_FLOWER,
             ),
@@ -54,7 +54,7 @@ async def start(_, msg):
         [
             InlineKeyboardButton(
                 text="˹ ϻʏ ϻᴧsᴛєʀ ˼ 👑",
-                url="https://t.me/ll_alexx_lll",
+                url="https://t.me/sasuke_qt",
                 style=ButtonStyle.DANGER,
                 icon_custom_emoji_id=_E_GLOW,
             ),

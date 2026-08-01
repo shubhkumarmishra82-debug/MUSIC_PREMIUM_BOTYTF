@@ -22,7 +22,7 @@ def e(eid, fb):
     return f'<emoji id={eid}>{fb}</emoji>'
 
 start_txt = (
-    f"{e(_E_STAR,'🌟')} {e(_E_GLOW,'🤩')} <b>ᴍɪᴋᴀsᴀ ᴍᴜsɪᴄ | ɪsᴛᴋʜᴀʀ</b> {e(_E_GLOW,'🤩')} {e(_E_STAR,'🌟')}\n\n"
+    f"{e(_E_STAR,'🌟')} {e(_E_GLOW,'🤩')} <b>𝐀ʟɪsᴀ ꭙ 𝐌ᴜꜱɪᴄ ♪˼✨ | ɪsᴛᴋʜᴀʀ</b> {e(_E_GLOW,'🤩')} {e(_E_STAR,'🌟')}\n\n"
     f"{e(_E_SPARK,'✨')} ʙᴀᴅᴀ ᴀᴀʏᴀ ʙᴏᴛ sᴛᴀᴛs ᴅᴇᴋʜɴᴇ,\n"
     f"{e(_E_LOVE,'💗')} ᴘᴀʜʟᴇ ᴀᴘɴɪ ʟɪɢᴇ ᴋᴇ sᴛᴀᴛs sᴜᴅʜᴀʀ ᴊᴀᴀᴋᴇ !\n\n"
     f"<pre>||{e(_E_RIGHT,'➡️')} ᴜᴩᴛɪᴍᴇ       :  𝟷ʜ:𝟹𝟺ᴍ:𝟻𝟺s\n"
@@ -40,7 +40,7 @@ async def start(_, msg):
         [
             InlineKeyboardButton(
                 text="˹sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ˼",
-                url="https://t.me/+Vo8tTaZsz9Q5Njk9",
+                url="https://t.me/AnimeWorld_pfp",
                 style=ButtonStyle.PRIMARY,
                 icon_custom_emoji_id=_E_STAR,
             ),

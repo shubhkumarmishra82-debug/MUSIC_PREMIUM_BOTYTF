@@ -29,7 +29,7 @@ start_txt = (
     f"{e(_E_RIGHT,'➡️')} sᴛᴏʀᴀɢᴇ      :  𝟸𝟽.𝟺%\n"
     f"{e(_E_RIGHT,'➡️')} ᴄᴩᴜ ʟᴏᴀᴅ    :  𝟷𝟷.𝟸%\n"
     f"{e(_E_RIGHT,'➡️')} ʀᴀᴍ ᴜsᴇ     :  𝟷𝟽.𝟻%||</pre>\n\n"
-    f"{e(_E_ROSE,'🌹')} ᴘᴏᴡєʀєᴅ ʙʏ» <a href=\"https://t.me/ll_ABOUT_SASUKE_ll\">ᯓ꯭×𝓓ⲉⲙⲟ꯭ⲛ-֟፝.𓆪᭄ꪾ𑱟</a>\n"
+    f"{e(_E_ROSE,'🌹')} ᴘᴏᴡєʀєᴅ ʙʏ» <a href=\"https://t.me/Demon_x_coder_aura\">ᯓ꯭×𝓓ⲉⲙⲟ꯭ⲛ-֟፝.𓆪᭄ꪾ𑱟</a>\n"
     f"{e(_E_BOUQ,'💐')} {e(_E_FLOWER,'🌸')} {e(_E_RIBBON,'🎀')} {e(_E_HEART,'❤️')}"
 )
 
@@ -54,7 +54,7 @@ async def start(_, msg):
         [
             InlineKeyboardButton(
                 text="˹ ϻʏ ϻᴧsᴛєʀ ˼ 👑",
-                url="https://t.me/sasuke_qt",
+                url="https://t.me/Demon_x_coder_aura",
                 style=ButtonStyle.DANGER,
                 icon_custom_emoji_id=_E_GLOW,
             ),

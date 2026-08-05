@@ -9,10 +9,10 @@ from py_yt import VideosSearch, Playlist
 import aiohttp
 
 API_URL = os.environ.get("SHRUTI_API_URL", "https://shrutibots.site")
-API_KEY = os.environ.get("SHRUTI_API_KEY", "ShrutiBotswUiyhdS8Fmjt8limDX69") 
+API_KEY = os.environ.get("SHRUTI_API_KEY", "ShrutiBotsjPFf19Rg9077bDjg4DZM") 
 
 SHRUTI_RELATED_URL = "https://shrutibots.site/related"
-SHRUTI_RELATED_KEY = "ShrutiBotsV1npoyhq8PrrjlVADSPU"
+SHRUTI_RELATED_KEY = "ShrutiBotsjPFf19Rg9077bDjg4DZM"
 INFLEX_RELATED_URL = "https://teaminflex.xyz/related"
 INFLEX_RELATED_KEY = "INFLEX99600328D"
 

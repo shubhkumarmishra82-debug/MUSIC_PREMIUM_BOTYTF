@@ -1,6 +1,6 @@
+import asyncio
 import os
 import re
-import random
 from typing import Union
 import yt_dlp
 from pyrogram.enums import MessageEntityType
@@ -8,18 +8,11 @@ from pyrogram.types import Message
 from py_yt import VideosSearch, Playlist
 import aiohttp
 
-API_URL = os.environ.get("SHRUTI_API_URL", "https://shrutibots.site")
-API_KEY = os.environ.get("SHRUTI_API_KEY", "ShrutiBotsjPFf19Rg9077bDjg4DZM") 
+API_URL = os.environ.get("SHRUTI_API_URL", "https://api.shrutibots.site")
 
-SHRUTI_RELATED_URL = "https://shrutibots.site/related"
-SHRUTI_RELATED_KEY = "ShrutiBotsjPFf19Rg9077bDjg4DZM"
-INFLEX_RELATED_URL = "https://teaminflex.xyz/related"
-INFLEX_RELATED_KEY = "INFLEX99600328D"
-
+API_KEY = os.environ.get("SHRUTI_API_KEY", "ShrutiBotsjPFf19Rg9077bDjg4DZM") ## Get This API KEY FROM TELEGRAM BOT USERNAME: @SHRUTIAPIBOT 
 
 DOWNLOAD_DIR = "downloads"
-
-# ... Baaki ka neeche ka code same rahega ...
 
 
 def time_to_seconds(time):
@@ -93,6 +86,8 @@ async def download_video(link: str) -> str:
             except Exception:
                 pass
         return None
+
+
 class YouTubeAPI:
     def __init__(self):
         self.base = "https://www.youtube.com/watch?v="
@@ -121,44 +116,6 @@ class YouTubeAPI:
                     if entity.type == MessageEntityType.TEXT_LINK:
                         return entity.url
         return None
-
-    # 🚀 YAHAN MAINE GET_RELATED ADD KIYA HAI AUTOPLAY SKIP FIX KE LIYE
-    async def get_related(self, videoid: str, limit: int = 5) -> list:
-        related_tracks = []
-        try:
-            async with aiohttp.ClientSession() as session:
-                # 1. Try Shruti API First
-                try:
-                    async with session.get(
-                        SHRUTI_RELATED_URL,
-                        params={"id": videoid, "apikey": SHRUTI_RELATED_KEY},
-                        timeout=5
-                    ) as resp:
-                        if resp.status == 200:
-                            data = await resp.json()
-                            if isinstance(data, list): related_tracks = data
-                            elif isinstance(data, dict): related_tracks = data.get("results") or data.get("data") or data.get("items") or []
-                except Exception:
-                    pass
-
-                # 2. Fallback to Inflex API if Shruti fails
-                if not related_tracks:
-                    try:
-                        async with session.get(
-                            INFLEX_RELATED_URL,
-                            params={"id": videoid, "apikey": INFLEX_RELATED_KEY},
-                            timeout=5
-                        ) as resp:
-                            if resp.status == 200:
-                                data = await resp.json()
-                                if isinstance(data, list): related_tracks = data
-                                elif isinstance(data, dict): related_tracks = data.get("results") or data.get("data") or data.get("items") or []
-                    except Exception:
-                        pass
-        except Exception:
-            pass
-            
-        return related_tracks
 
     async def details(self, link: str, videoid: Union[bool, str] = None):
         if videoid:

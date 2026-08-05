@@ -95,7 +95,7 @@ def private_panel(_):
         ],
         [
             InlineKeyboardButton(
-                text=_[𝛅 ᥲ s 𝛖 𝛋 ᴇ ࿐],
+                text=_["S_B_5"],
                 url=f"https://t.me/{_clean_username(config.OWNER_USERNAME)}",
                 style=ButtonStyle.DANGER,
                 icon_custom_emoji_id=_E_CROWN

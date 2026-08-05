@@ -54,7 +54,7 @@ async def start(_, msg):
         [
             InlineKeyboardButton(
                 text="𝛅 ᥲ s 𝛖 𝛋 ᴇ ࿐",
-                url="https://t.me/Demon_x_coder_aura",
+                url="https://t.me/sasuke_qt",
                 style=ButtonStyle.DANGER,
                 icon_custom_emoji_id=_E_GLOW,
             ),

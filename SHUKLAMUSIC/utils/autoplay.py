@@ -181,11 +181,4 @@ async def fetch_autoplay_track(chat_id: int, seed_title: str, seed_vidid: str = 
         return None
 
     return random.choice(candidates)
-
-# ===========================================================
-# ©️ 2025-26 All Rights Reserved by Purvi Bots (Im-Notcoder) 😎
-#
-# 🧑‍💻 Developer : t.me/TheSigmaCoder
-# 🔗 Source link : GitHub.com/Im-Notcoder/Shivi-V2
-# 📢 Telegram channel : t.me/Purvi_Bots
-# ===========================================================
+      

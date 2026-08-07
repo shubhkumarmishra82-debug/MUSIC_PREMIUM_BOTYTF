@@ -169,7 +169,7 @@ async def start_pm(client, message: Message, _):
     await asyncio.sleep(0.1)
     await loading_1.edit_text("<b>ᴀʟɪsᴀ</b>")
     await asyncio.sleep(0.1)
-    await loading_1.edit_text("<b>ᴀʟɪsᴀ ×</b>")
+    await loading_1.edit_text("<b>ᴀʟɪsᴀ × </b>")
     await asyncio.sleep(0.1)
     await loading_1.edit_text("<b>ᴀʟɪsᴀ × ᴍᴜsɪᴄ ♪</b>")
     await asyncio.sleep(0.1)

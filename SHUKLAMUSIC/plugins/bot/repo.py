@@ -22,14 +22,14 @@ def e(eid, fb):
     return f'<emoji id={eid}>{fb}</emoji>'
 
 start_txt = (
-    f"{e(_E_STAR,'🌟')} {e(_E_GLOW,'🤩')} <b>𝐀ʟɪsᴀ ꭙ 𝐌ᴜꜱɪᴄ ♪˼✨ | 𝛅 ᥲ s 𝛖 𝛋 ᴇ ࿐</b> {e(_E_GLOW,'🤩')} {e(_E_STAR,'🌟')}\n\n"
+    f"{e(_E_STAR,'🌟')} {e(_E_GLOW,'🤩')} <b>ʀᴀᴊsʜʀᴇᴇ ᴍᴜsɪᴄ ♪˼✨ | ᯓ꯭×𝓓ⲉⲙⲟ꯭ⲛ-֟፝.𓆪᭄ꪾ𑱟 #MADARA</b> {e(_E_GLOW,'🤩')} {e(_E_STAR,'🌟')}\n\n"
     f"{e(_E_SPARK,'✨')} ʙᴀᴅᴀ ᴀᴀʏᴀ ʙᴏᴛ sᴛᴀᴛs ᴅᴇᴋʜɴᴇ,\n"
     f"{e(_E_LOVE,'💗')} ᴘᴀʜʟᴇ ᴀᴘɴɪ ʟɪɢᴇ ᴋᴇ sᴛᴀᴛs sᴜᴅʜᴀʀ ᴊᴀᴀᴋᴇ !\n\n"
     f"<pre>||{e(_E_RIGHT,'➡️')} ᴜᴩᴛɪᴍᴇ       :  𝟷ʜ:𝟹𝟺ᴍ:𝟻𝟺s\n"
     f"{e(_E_RIGHT,'➡️')} sᴛᴏʀᴀɢᴇ      :  𝟸𝟽.𝟺%\n"
     f"{e(_E_RIGHT,'➡️')} ᴄᴩᴜ ʟᴏᴀᴅ    :  𝟷𝟷.𝟸%\n"
     f"{e(_E_RIGHT,'➡️')} ʀᴀᴍ ᴜsᴇ     :  𝟷𝟽.𝟻%||</pre>\n\n"
-    f"{e(_E_ROSE,'🌹')} ᴘᴏᴡєʀєᴅ ʙʏ» <a href=\"https://t.me/Demon_x_coder_aura\">ᯓ꯭×𝓓ⲉⲙⲟ꯭ⲛ-֟፝.𓆪᭄ꪾ𑱟</a>\n"
+    f"{e(_E_ROSE,'🌹')} ᴘᴏᴡєʀєᴅ ʙʏ» <a href=\"https://t.me/Demon_x_coder_aura">ᯓ꯭×𝓓ⲉⲙⲟ꯭ⲛ-֟፝.𓆪᭄ꪾ𑱟</a>\n"
     f"{e(_E_BOUQ,'💐')} {e(_E_FLOWER,'🌸')} {e(_E_RIBBON,'🎀')} {e(_E_HEART,'❤️')}"
 )
 
@@ -40,21 +40,21 @@ async def start(_, msg):
         [
             InlineKeyboardButton(
                 text="˹sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ˼",
-                url="https://t.me/AnimeWorld_pfp",
+                url="https://t.me/+elr60bpgFwswN2Fl",
                 style=ButtonStyle.PRIMARY,
                 icon_custom_emoji_id=_E_STAR,
             ),
             InlineKeyboardButton(
                 text="˹ᴜᴩᴅᴀᴛᴇs˼",
-                url="https://t.me/ll_ABOUT_SASUKE_ll",
+                url="https://t.me/+Vo8tTaZsz9Q5Njk9",
                 style=ButtonStyle.SUCCESS,
                 icon_custom_emoji_id=_E_FLOWER,
             ),
         ],
         [
             InlineKeyboardButton(
-                text="𝛅 ᥲ s 𝛖 𝛋 ᴇ ࿐",
-                url="https://t.me/sasuke_qt",
+                text="ᯓ꯭×𝓓ⲉⲙⲟ꯭ⲛ-֟፝.𓆪᭄ꪾ𑱟 #MADARA",
+                url="https://t.me/Demon_x_coder_aura",
                 style=ButtonStyle.DANGER,
                 icon_custom_emoji_id=_E_GLOW,
             ),
@@ -62,7 +62,7 @@ async def start(_, msg):
     ]
 
     await msg.reply_photo(
-        photo="https://d.uguu.se/nGpQVVqm.jpg",
+        photo="https://i.ibb.co/VcVknVWF/uploaded-image.jpg",
         caption=start_txt,
         reply_markup=InlineKeyboardMarkup(buttons),
     )

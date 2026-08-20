@@ -45,11 +45,11 @@ from strings import get_string
 welcome_db = db.welcome_config 
 
 YUMI_PICS = [
-"https://n.uguu.se/DlpFAoxS.jpg",
-"https://d.uguu.se/jtBiNkmc.jpg",
-"https://d.uguu.se/KwggKBlJ.jpg",  
+"https://files.catbox.moe/95stut.jpg",
+"https://files.catbox.moe/aqzdyz.jpg",  
 
 ]
+
 
 GREET = [
     "💞", "🥂", "🔍", "🧪", "🥂", "⚡️", "🔥",
@@ -151,7 +151,7 @@ async def start_pm(client, message: Message, _):
     # --- ANIMATION START ---
     # Step 1 — Send 2 premium emojis from radhamusicbot1_by_TgEmojis_bot
     emoji_splash = await message.reply_text(
-        '<emoji id=5857427272448876539>🤩</emoji>  <emoji id=5854711294044677474>🤩</emoji>'
+        '<emoji id=6129717706410169557>🤩</emoji>  <emoji id=6132144474601559532>🤩</emoji>'
     )
     await asyncio.sleep(0.5)
     await emoji_splash.delete()
@@ -161,19 +161,19 @@ async def start_pm(client, message: Message, _):
     await add_served_user(message.from_user.id)
 
     await asyncio.sleep(0.1)
-    await loading_1.edit_text("<b>ᴅɪηɢ ᴅᴏηɢ.❤️‍🔥</b>")
+    await loading_1.edit_text("<b>ᴅɪηɢ ᴅᴏηɢ.<emoji id=6147617184479711380>🤩</emoji></b>")
     await asyncio.sleep(0.1)
-    await loading_1.edit_text("<b>ᴅɪηɢ ᴅᴏηɢ..❤️‍🔥</b>")
+    await loading_1.edit_text("<b>ᴅɪηɢ ᴅᴏηɢ..<emoji id=6147617184479711380>🤩</emoji></b>")
     await asyncio.sleep(0.1)
-    await loading_1.edit_text("<b>ᴅɪηɢ ᴅᴏηɢ...❤️‍🔥</b>")
+    await loading_1.edit_text("<b>ᴅɪηɢ ᴅᴏηɢ...<emoji id=6147617184479711380>🤩</emoji></b>")
     await asyncio.sleep(0.1)
-    await loading_1.edit_text("<b>ᴀʟɪsᴀ</b>")
+    await loading_1.edit_text("<b>ʀᴀᴊsʜʀᴇᴇ</b>")
     await asyncio.sleep(0.1)
-    await loading_1.edit_text("<b>ᴀʟɪsᴀ × </b>")
+    await loading_1.edit_text("<b>ʀᴀᴊsʜʀᴇᴇ × </b>")
     await asyncio.sleep(0.1)
-    await loading_1.edit_text("<b>ᴀʟɪsᴀ × ᴍᴜsɪᴄ ♪</b>")
+    await loading_1.edit_text("<b>ʀᴀᴊsʜʀᴇᴇ × ᴍᴜsɪᴄ ♪</b>")
     await asyncio.sleep(0.1)
-    await loading_1.edit_text("<b>sᴛᴧʀᴛed!🥀</b>")
+    await loading_1.edit_text("<b>sᴛᴧʀᴛed!<emoji id=6172273586703700991>🤩</emoji></b>")
     await asyncio.sleep(0.1)
     await loading_1.delete()
     # --- ANIMATION END ---
